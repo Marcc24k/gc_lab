@@ -1,0 +1,161 @@
+/*GLOBAL STYLE*/
+
+body {
+    background-color: darkslategray;
+}
+
+h3 {
+    color: darkred;
+    width: 100px
+}
+
+
+/*NAVIGATION STYLE*/
+
+.nav-container {
+    position: fixed;
+    color: white;
+    left: 76%;
+    top: 41px;
+    font-size: 1.8em;
+    width: 350px;
+    height: auto;
+    display: flex;
+    letter-spacing: 1.0px;
+    z-index: 11;
+}
+
+
+/*ITEMS CLASS STYLE*/
+
+.item-1 {
+    position: relative;
+    text-align: center;
+    border: 2px solid transparent;
+    border-bottom-color: lightcoral;
+    width: 94px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.item-2 {
+    position: relative;
+    text-align: center;
+    border: 2px solid transparent;
+    border-bottom-color: purple;
+    width: 94px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.item-3 {
+    position: relative;
+    text-align: center;
+    border: 2px solid transparent;
+    border-bottom-color: lightgreen;
+    width: 112px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/*NAV LINK STYLE*/
+
+a {
+    color: lightblue;
+    opacity: .8;
+    text-decoration: none;
+}
+
+
+/*MAIN SECTION*/
+
+section {
+    position: relative;
+    border-radius: 10px;
+    color: whitesmoke;
+    width: 1000px;
+    height: auto;
+    top: 72px;
+    left: 20%;
+    padding: 15px;
+    opacity: .6;
+}
+
+ul {
+    width: 1000px;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+img {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    
+}
+
+
+/*BIG FOOTER STYLE*/
+
+.big-footer {
+    position: relative;
+    top: 65px;
+    text-align: center;
+    width: 98.8%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0f0303;
+    color: whitesmoke;
+    opacity: .8;
+    
+}
+
+
+/*BIGG FOOTER H3 STYLE*/
+
+.big-footer h3 {
+    position: relative;
+    color: whitesmoke;
+    border: 2px solid transparent;
+    border-bottom-color: purple;
+    width: 230px;
+    padding: 5px;
+    left: 42%;
+}
+
+ol {
+    position: relative;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+h4 {
+    position: relative;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    left: 308%;
+}
+
+
+/*COPYRIGHT*/
+
+.copy {
+    position: relative;
+    color: orangered;
+    left: -1.5%;
+}
