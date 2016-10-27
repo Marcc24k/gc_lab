@@ -5,10 +5,14 @@ body {
 }
 
 h1 {
+    position: relative;
     color: orangered;
+    left:10%;
 }
 
 h3 {
+    text-align: center;
+        width:350px;
     color: darkred;
 }
 
@@ -20,9 +24,10 @@ h3 {
 /*NAVIGATION STYLE*/
 
 .nav-container {
+      background-color:darkslategray;
     position: fixed;
     color: white;
-    left: 73%;
+    left: 14%;
     top: 41px;
     font-size: 1.8em;
     width: 350px;
@@ -83,14 +88,14 @@ a {
 section {
     position: relative;
     border-radius: 10px;
-    color: whitesmoke;
-    width: 1000px;
+    color: whitesmoke; 
     height: auto;
     top: 110px;
-    left: 20%;
     padding:15px;
    line-height: 25px;
     opacity: .6;
+      left:3px;
+        width:400px;
 }
 
 section ul li {
@@ -99,13 +104,10 @@ section ul li {
       list-style-type:square ;
 }
 
-.codepen {
-    position: relative;
-    left: 4%;
-    width:54%;
-    text-align: left;
-    padding: 10px;
-}
+  .git-link{
+        position: relative;
+        left: 19%;
+    }
 
 
 /*COPYRIGHT*/
@@ -113,6 +115,124 @@ section ul li {
 .copy {
     position: relative;
     top: 8px;
-    left:40%;
+    left:12;
     color: orangered;
 }
+
+/*
+ ================================= 
+  Media Queries
+==================================== 
+*/
+ 
+
+
+@media (min-width: 769px) {
+    
+    .nav-container{
+          
+        left:29%;
+    }
+    
+    section{
+        position: relative;
+        left:30px;
+        width:790px;
+    }
+    
+    .front-end{
+        position: relative;
+        left:27%;
+        width: 350px;
+        text-align: center;
+    }
+    h3{
+        position: relative;
+        text-align: center;
+        width:450px;
+        left:20%;
+    }
+    .codepen{
+        position: relative;
+        width: 370px;
+        left:25%;
+        }
+   
+    .git-link{
+        position: relative;
+        left: 35%;
+    }
+    .interest{
+        position: relative;
+        width:550px;
+        right:0%;
+        
+    }
+    .copy{
+        position: relative;
+        left:12px;
+
+    }
+    
+}
+
+
+@media (min-width: 1025px) {
+         
+    .nav-container{
+         
+        position:relative;
+        left:70%;
+        
+    }
+     
+    
+    section{
+        position: relative;
+        left:18%;
+        width:950px;
+    }
+    .front-end{
+        position: relative;
+        left:35%;
+        width: 350px;
+        text-align: center;
+    }
+    h3{
+        position: relative;
+        text-align: center;
+        width:450px;
+        left:30%
+    }
+    .codepen{
+        position: relative;
+        width: 600px;
+        left:20%;
+        }
+     
+    ul{
+        position: relative;
+        width: 190px;
+        lefT:9%;
+    }
+    .git-link{
+        position: relative;
+        left: 42%;
+    }
+    .interest{
+        position: relative;
+        width:600px;
+        left:-20%;
+        
+    }
+    .copy{
+        position: relative;
+        left:12px;
+
+    }
+}
+
+
+
+
+
